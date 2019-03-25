@@ -1,4 +1,4 @@
-//I. Variables & Datatypes
+//A. Variables & Datatypes
 
 // How do we assign a value to a variable? 
 let random = "value"  // using the operator = you assign things to a variable 
@@ -8,10 +8,9 @@ random = "newValue"; console.log(random)
 // using "let" when defining your initial value, you can ressign the value of random with the operator =
 
 // How do we assign an existing variable to a new variable?
-let x = 2; // using a loop and a the while method you can inset a new value into an existing variable
- while (x < 25) {
-    console.log(x++);
-};
+var x = 2; // using let method
+let y = x
+    console.log(y);
 
 // Remind me, what are declare, assign, and define?
 //declare registers a variable var = 5  where 5 is the declaration //
@@ -26,3 +25,27 @@ let x = 2; // using a loop and a the while method you can inset a new value into
 //going to solve a problem vs actually typing in code to solve it?
 // 50 % thinkging %50 precent solving 
 
+//B. Strings 
+
+// Create a variable called firstVariable.
+// Assign it the value of the string "Hello World"
+var firstVariable = ("Hello World")
+
+// Change the value of this variable to some number.
+firstVariable = 2;  
+
+// Store the value of firstVariable in a new variable called secondVariable
+var secondVariable = 2; 
+
+// Change the value of secondVariable to any string.
+secondVariable = "this is a string";
+
+// What is the value of firstVariable?
+// the value of first variable is 2 
+
+// Create a variable called yourName and set it equal to your name as a string. 
+// /Then, write an expression that takes the string "Hello, my name is " and 
+// the variable yourName so that it returns a new string with them concatenated.
+const yourName = 'Arrick'
+
+console.log ('Hello, my name is ' + yourName)
