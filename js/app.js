@@ -236,10 +236,29 @@ myArray.splice(0, 0, "Bob Marley");
 
 
 // Remove the string of your choise from the end of the array.
-myArray.pop("new"); console.log(myArray); 
+myArray.pop("new"); 
 
 // Reverse this array using Array.prototype.reverse().
-//  Did you mutate the array? What does mutate mean? 
-//  Did the .reverse() method return anything?
-
 console.log(myArray.reverse([]))
+
+//  Did you mutate the array? What does mutate mean?
+//mutate is changing the elements without redefining them  
+
+//  Did the .reverse() method return anything?
+// yes the reverse method returned the array in the reverse order 
+
+//F Biggie smalls 
+
+// Create a variable that contains an integer.
+// Write an if ... else statement that:
+// console.log()s "little number" if the number is entered is less than 100
+// console.log()s big number if the number is greater than or equal to 100.
+
+ var n = (num) => {
+if( num < 100)console.log("little number");
+    else if(num > 100) console.log("big number");
+ }
+
+console.log(n(10));
+console.log(n(200));
+
