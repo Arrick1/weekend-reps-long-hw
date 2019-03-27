@@ -168,25 +168,11 @@ for(i = 1; i <= 100; i++){
 
 console.log(bonus);
 
-// // pringlongest word 
-// function printLongestword(arrString){
-//     let result =arr.string(function isPrime(value) {
-//         for(var i = 2; i < value; i++) {
-//             if(value % i === 0) {
-//                 return false;
-//             }
-//         }
-//         return value > 1;
-//     }'';
-// for(let i =0; i <arrString.length; i++){
-//     if(result.length <= arrString.[i].length){ 
-//     }
-// }
-// return = result;
-// }
 
-//Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
-// Check your work! Your banck_account should have $55 in it.
+// E. Multiples of 3 and 5
+// If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
-// You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
-// Check your work! Your banck_account should have $10,100 in it.
+// Find the sum of all the multiples of 3 or 5 below 1000. If a previous question you've done has helpful bits of code in it that partially solves this problem, look back at them.
+
+// You just solved Project Euler problem 1!
+
