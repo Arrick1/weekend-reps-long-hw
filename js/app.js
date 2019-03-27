@@ -218,5 +218,28 @@ ourClass[4]= "Octocat"
 
 //Add a new element, "Cloud City" to the array.
 ourClass.push("Cloud City");
-console.log(ourClass)
 
+
+// E. Mix It Up
+// Given the following array: 
+const myArray = [5, 10, 500, 20]
+
+// Add the string "Egon" to the end of the array. 
+//Add another string of your choice to the end of the array.
+myArray.push("Egon"); myArray.push("new");
+
+// Remove the 5 from the beginning of the array.
+myArray.splice(0,1,);
+
+// Add the string "Bob Marley" to the beginning of the array.
+myArray.splice(0, 0, "Bob Marley");  
+
+
+// Remove the string of your choise from the end of the array.
+myArray.pop("new"); console.log(myArray); 
+
+// Reverse this array using Array.prototype.reverse().
+//  Did you mutate the array? What does mutate mean? 
+//  Did the .reverse() method return anything?
+
+console.log(myArray.reverse([]))
