@@ -255,10 +255,27 @@ console.log(myArray.reverse([]))
 // console.log()s big number if the number is greater than or equal to 100.
 
  var n = (num) => {
-if( num < 100)console.log("little number");
+if(num < 100)console.log("little number");
     else if(num > 100) console.log("big number");
  }
 
 console.log(n(10));
 console.log(n(200));
 
+// G. Monkey in the Middle
+
+var x = (num) => {
+    if(num < 5){console.log("little number");}
+        else if(num < 10) {console.log("big number");}
+        else {console.log("monkey")}
+     }
+     console.log(x(2));
+     console.log(x(20));
+     console.log(x(8));
+// Write an if ... else if ... else statement:
+
+// console.log() little number if the number entered is less than 5.
+
+// If the number entered is more than 10, log big number.
+
+// Otherwise, log "monkey". 
