@@ -176,3 +176,21 @@ console.log(bonus);
 
 // You just solved Project Euler problem 1!
 
+
+//A. Talk about it:
+// What are the things in an array called?
+//elements
+
+// Do Arrays guarantee those things will be in order?
+// no but you can use .sort 
+
+// What real-life thing could you model with an array?
+// you could use an array to list out the items needed on a grocery list 
+
+
+// B. Easy Does It
+// Create an array that contains three quotes and store it in a variable called quotes.
+
+const quotes = ["My life is a message", "Stay hungry stay foolish", "Fall seven times, stand up eight"]
+
+
