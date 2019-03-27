@@ -114,16 +114,79 @@ age(20);
 
 // Write a loop that will print out all the numbers 
 // from 0 to 10, inclusive.
-for(let i = 0; i <= 10; i++){
-console.log(i)};
+// for(let i = 0; i <= 10; i++){
+// console.log(i)};
 
 // Write a loop that will print out all the numbers 
 // from 10 up to and including 400.
-for(let im = 10; im <= 400; im++){
-    console.log(im)};
+// for(let i = 10; i <= 400; i++){
+    // console.log(i)};
     
 
 // Write a loop that will print out every third number 
 // starting with 12 and going no higher than 4000.
-for(let num = 12; num <= 4000; num +=3){
-    console.log(num)};
+// for(let num = 12; num <= 4000; num +=3){
+    // console.log(num)};
+
+// // B. Get even
+// Print out the even numbers that are within the range of 1 - 100.
+// Adjust your code to add a message next to even numbers 
+// only that says: "<-- is an even number".
+
+// for (let i = 1; i < 100; i++){
+//     if (i % 2 === 0){ console.log(i +" <--- is an even number")}
+// }
+
+//C. Give me Five
+// For the numbers 0 - 100, print out "I found a number. High five!" 
+//if the number is a multiple of five.
+for(let i = 0; i<=100; i++){
+   if((i % 5 === 0) || (i % 3===0)) {
+       console.log(i)}
+           if(i % 5 === 0){
+       console.log("I found a " + i + " High five!")
+           } else if(i %3 ===0) {
+               console.log("I found a " + i+". Three is a crowd")
+           }
+        }
+
+// Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+// Check your work! Your banck_account should have $55 in it.
+let bank_account = 0 
+for(i = 1; i <= 10; i++){
+      bank_account += i 
+}
+
+console.log(bank_account);
+        
+// You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+// Check your work! Your banck_account should have $10,100 in it.
+let bonus = 0 
+for(i = 1; i <= 100; i++){
+      bonus += i*2 
+}
+
+console.log(bonus);
+
+// // pringlongest word 
+// function printLongestword(arrString){
+//     let result =arr.string(function isPrime(value) {
+//         for(var i = 2; i < value; i++) {
+//             if(value % i === 0) {
+//                 return false;
+//             }
+//         }
+//         return value > 1;
+//     }'';
+// for(let i =0; i <arrString.length; i++){
+//     if(result.length <= arrString.[i].length){ 
+//     }
+// }
+// return = result;
+// }
+
+//Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+// Check your work! Your banck_account should have $55 in it.
+
+// You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+// Check your work! Your banck_account should have $10,100 in it.
