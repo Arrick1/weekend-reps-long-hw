@@ -1,4 +1,4 @@
-//A. Variables & Datatypes
+// A. Variables & Datatypes
 
 // How do we assign a value to a variable? 
 let random = "value"  // using the operator = you assign things to a variable 
@@ -279,3 +279,62 @@ var x = (num) => {
 // If the number entered is more than 10, log big number.
 
 // Otherwise, log "monkey". 
+
+//H. What's in Your Closet?
+
+const kristynsCloset = [
+  'left shoe',
+  'cowboy boots',
+  'right sock',
+  'GA hoodie',
+  'green pants',
+  'yellow knit hat',
+  'marshmallow peeps'
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    'grey button-up',
+    'dark grey button-up',
+    'light blue button-up',
+    'blue button-up'
+  ],
+  [
+    // These are Thom's pants
+    'grey jeans',
+    'jeans',
+    'PJs'
+  ],
+  [
+    // Thom's accessories
+    'wool mittens',
+    'wool scarf',
+    'raybans'
+  ]
+];
+
+// Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript.
+// What's Kristyn wearing today? Using bracket notation to 
+// access items in kristynsCloset, log the sentence 
+// "Kristyn is rocking that " + the third item in Kristyn's 
+// closet + " today!" to the console.
+
+const outfit1 = `Kristyn is rocking that ${kristynsCloset[2]} today!`; console.log(outfit1)
+
+// Kristyn just bought some sweet shades! Add "raybans" to her closet after "yellow knit hat".
+kristynsCloset.splice(6,0, "raybans"); 
+// Kristyn spilled coffee on her hat... modify this item to read "stained knit hat" instead of yellow.
+kristynsCloset[5] = "stained knit hat"; 
+// Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirts array.
+const shirt = `${thomsCloset[0][0]}`; 
+// In the same way, access one item from Thom's pants array.
+const pants = `${thomsCloset[1][0]}`; 
+// Access one item from Thom's accessories array.
+const accessory = `${thomsCloset[2][2]}`;
+// Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
+console.log(`Thom decided to rock his`,shirt, "with",pants, "and his", accessory, "." )
+// Get more specific about what kind of PJs Thom's wearing this winter.
+// Modify the name of his PJ pants to Footie Pajamas.
+thomsCloset[1][2]="Footie Pajamas", console.log(thomsCloset[1])
