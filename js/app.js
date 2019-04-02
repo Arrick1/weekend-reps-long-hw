@@ -368,3 +368,14 @@ const printCool = (name) => {
 }
 
 printCool("Beyonce");
+
+// C. calculateCube
+// Write a function calculateCube that takes a single number and 
+// prints the volume of a cube made from that number.
+
+const calculateCube = (num) => {
+  let cube = Math.pow(num,3);
+  console.log (cube);
+}
+
+calculateCube(5);
