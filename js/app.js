@@ -337,4 +337,25 @@ const accessory = `${thomsCloset[2][2]}`;
 console.log(`Thom decided to rock his`,shirt, "with",pants, "and his", accessory, "." )
 // Get more specific about what kind of PJs Thom's wearing this winter.
 // Modify the name of his PJ pants to Footie Pajamas.
-thomsCloset[1][2]="Footie Pajamas", console.log(thomsCloset[1])
+thomsCloset[1][2]="Footie Pajamas";
+
+//IV. Functions
+// A. printGreeting
+// Do you think you could write a function called printGreeting 
+// with a parameter name that returns a greeting with the argument 
+// interpolated into the greeting?
+// Like so?
+// console.log(printGreeting('Slimer'));
+// => Hello there, Slimer!
+
+const printGreeting = (name) => {
+  console.log ("Hello there, " + name)
+} ;
+printGreeting("Slimer")
+
+
+
+// You think you could? I think so too. Feel free to skip this problem, because you've already done it. 
+//If you've done the problem twice, read entire problems carefully before doing them 
+//from now on.
+
