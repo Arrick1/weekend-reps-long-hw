@@ -114,13 +114,13 @@ age(20);
 
 // Write a loop that will print out all the numbers 
 // from 0 to 10, inclusive.
-// for(let i = 0; i <= 10; i++){
-// console.log(i)};
+for(let i = 0; i <= 10; i++){
+console.log(i)};
 
 // Write a loop that will print out all the numbers 
 // from 10 up to and including 400.
-// for(let i = 10; i <= 400; i++){
-    // console.log(i)};
+for(let i = 10; i <= 400; i++){
+    console.log(i)};
     
 
 // Write a loop that will print out every third number 
@@ -416,3 +416,13 @@ console.log(n)
 }
 getTwoLengths("Hello", "ppl");
 getTwoLengths("Arrick", "Joseph")
+
+// F. getMultipleLengths
+// Write a function getMultipleLengths that accepts a single parameter as an argument:
+//  an array of strings. The function should return an array of numbers where each 
+//  number is the length of the corresponding string.
+
+const getMultipleLengths = ([str, str2, str3]) => {
+var a = getMultipleLengths[0].length
+
+}
